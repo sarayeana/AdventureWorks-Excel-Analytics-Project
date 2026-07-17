@@ -1,0 +1,44 @@
+# ==========================
+# Excel Portfolio .gitignore
+# ==========================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+
+# Temporary Excel Files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# Auto Recovery Files
+*.xlk
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Backup Files
+*.bak
+*.old
+
+# Environment Files
+.env
+.env.*
+
+# Compressed Files
+*.zip
+*.rar
+*.7z
+
+# Python Cache (if using Python)
+__pycache__/
+*.pyc
