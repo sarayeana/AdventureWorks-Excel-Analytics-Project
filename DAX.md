@@ -260,3 +260,24 @@ DIVIDE(
     0
 )
 ```
+
+## Target Performance KPIs
+
+### Target Variance
+
+```DAX
+Target Variance :=
+[Actual Sales] - [Salesperson Target]
+```
+
+
+### YoY Sales Growth %
+```markdown
+DAX
+YoY Sales Growth % :=
+DIVIDE(
+    [Total Sales] - [Previous Year Sales],
+    [Previous Year Sales],
+    0
+)
+```
