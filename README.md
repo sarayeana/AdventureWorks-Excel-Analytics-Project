@@ -451,9 +451,33 @@ The Excel dashboard provides an interactive overview of business performance acr
 - Salesperson Performance
 - Target Achievement
 
-### Dashboard Preview
+## 📊 Dashboard Preview
 
-![AdventureWorks Excel Dashboard](Images/Dashboard_Preview.png)
+The AdventureWorks Excel Dashboard provides an interactive overview of sales performance, profitability, regional performance, product category performance, and salesperson performance.
+
+### Main Dashboard
+
+![AdventureWorks Excel Dashboard](Dashboard/Adventureworks%20Excel%20Dashboard.png)
+
+---
+
+## 📈 Key Business Insights
+
+### Best Year Overall Performance
+
+![Best Year Overall Performance](Dashboard/Best%20Year%20overall%20Performance%20.png)
+
+### Top Region Overall Performance
+
+![Top Region Overall Performance](Dashboard/top%20region%20overall%20Performance%20.png)
+
+### Top Category Overall Performance
+
+![Top Category Overall Performance](Dashboard/top%20category%20overall%20Performance%20.png)
+
+### Top Salesperson Performance
+
+![Top Salesperson Performance](Dashboard/top%20sales%20salesperson.png)
 
 ## 🎯 Final Business Takeaway
 
