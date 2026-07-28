@@ -1,9 +1,3 @@
-Below is a GitHub-ready README.md for your AdventureWorks Excel Analytics project. I kept it professional, visually clean, and focused on the analysis that makes the project stand out.
-
-Save everything inside the code block as:
-
-README.md
-
 # AdventureWorks Excel Analytics
 
 > An end-to-end Excel Business Intelligence and Sales Analytics project focused on transforming raw AdventureWorks data into actionable business insights.
@@ -72,7 +66,6 @@ The analysis covers information related to:
 
 The dataset enables analysis across multiple business dimensions:
 
-```text
 Products
     ↓
 Categories & Subcategories
@@ -89,15 +82,20 @@ Salespersons
     ↓
 Targets
 
-##🛠️ Tools Used
-Tool	Purpose
-Microsoft Excel	Data analysis and dashboard development
-Excel PivotTables	Business analysis and aggregation
-Excel PivotCharts	Data visualization
-Excel Formulas	KPI and business calculations
-Power Query	Data preparation and transformation
-GitHub	Project documentation and version control
-📁 Project Structure
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel | Data analysis and dashboard development |
+| Excel PivotTables | Business analysis and aggregation |
+| Excel PivotCharts | Data visualization |
+| Excel Formulas | KPI and business calculations |
+| Power Query | Data preparation and transformation |
+| GitHub | Project documentation and version control |
+
+## 📁 Project Structure
+
+```text
 AdventureWorks-Excel-Analytics/
 │
 ├── Dashboard/
@@ -115,328 +113,351 @@ AdventureWorks-Excel-Analytics/
 │   └── AdventureWorks-Excel-Analytics.xlsx
 │
 ├── Images/
-│   └── KPI Screenshots
-    └── PivotTable Screenshots
-│── .gitignore
-│── DAX.md
-│── Insight.md
-│── LICENSE
+│   ├── KPI Screenshots/
+│   └── PivotTable Screenshots/
+│
+├── .gitignore
+├── DAX.md
+├── Insight.md
+├── LICENSE
 └── README.md
-📈 Key Analysis
-1. Overall Business Performance
+
+## 📈 Key Analysis
+
+### 1. Overall Business Performance
 
 The business generated approximately:
 
-Total Sales: $77.55M
-Total Profit: Approximately $1.10M
+- **Total Sales:** $77.55M
+- **Total Profit:** Approximately $1.10M
 
 The analysis indicates that the business generates strong revenue but operates with relatively low overall profitability.
 
 This highlights the importance of improving:
 
-Pricing
-Product costs
-Discounting
-Product mix
-Reseller margins
-2. Sales Trend Analysis
+- Pricing
+- Product costs
+- Discounting
+- Product mix
+- Reseller margins
+
+### 2. Sales Trend Analysis
 
 Sales increased significantly over the analyzed period.
 
-Best Year: 2019 — approximately $32.50M
-Worst Year: 2017 — approximately $8.07M
-Peak Sales Month: August — approximately $9.46M
-Lowest Sales Month: June — approximately $3.13M
+- **Best Year:** 2019 — approximately $32.50M
+- **Worst Year:** 2017 — approximately $8.07M
+- **Peak Sales Month:** August — approximately $9.46M
+- **Lowest Sales Month:** June — approximately $3.13M
 
 The sales trend indicates strong overall growth, although monthly performance fluctuates.
 
 This may indicate potential seasonality or changes in customer demand.
 
-3. Product Analysis
+### 3. Product Analysis
 
-The Mountain-200 Black, 38 product was the strongest individual product based on both sales and profit.
+The **Mountain-200 Black, 38** product was the strongest individual product based on both sales and profit.
 
-Sales: $2.94M
-Profit: $272.77K
-Profit Margin: 9.26%
+- **Sales:** $2.94M
+- **Profit:** $272.77K
+- **Profit Margin:** 9.26%
 
 The Mountain-200 product family is a major revenue and profit engine.
 
-Core Star Products
+#### Core Star Products
 
 The strongest products combine:
 
-High Sales + High Profit
+**High Sales + High Profit**
 
 These products should receive priority in:
 
-Inventory availability
-Reseller support
-Marketing investment
-Pricing monitoring
-Margin Risk Products
+- Inventory availability
+- Reseller support
+- Marketing investment
+- Pricing monitoring
+
+#### Margin Risk Products
 
 Several high-sales products generate negative profit.
 
 For example:
 
-Touring-1000 Yellow, 60
+**Touring-1000 Yellow, 60**
 
-Sales: $1.09M
-Profit: -$192.33K
-Profit Margin: -17.65%
+- **Sales:** $1.09M
+- **Profit:** -$192.33K
+- **Profit Margin:** -17.65%
 
 These products require investigation into pricing, costs, discounts, and product mix.
 
-Product Revenue Concentration
-Top 10 Product Sales: $19.66M
-Total Sales: $77.55M
-Top 10 Contribution: 25.35%
+#### Product Revenue Concentration
 
-The top 10 products contribute approximately 25.35% of total sales, indicating moderate product revenue concentration.
+- **Top 10 Product Sales:** $19.66M
+- **Total Sales:** $77.55M
+- **Top 10 Contribution:** 25.35%
 
-4. Category Analysis
+The top 10 products contribute approximately **25.35% of total sales**, indicating moderate product revenue concentration.
 
-The Bikes category is the leading category by sales.
+### 4. Category Analysis
 
-Bikes Sales: $64.07M
+The **Bikes** category is the leading category by sales.
+
+- **Bikes Sales:** $64.07M
 
 However, Bikes generated approximately:
 
-Profit: -$435.68K
+- **Profit:** -$435.68K
 
-Meanwhile, Components generated:
+Meanwhile, **Components** generated:
 
-Sales: $11.23M
-Profit: $1.00M
+- **Sales:** $11.23M
+- **Profit:** $1.00M
 
 This is one of the most important findings in the project:
 
-The category generating the most revenue is not necessarily the category generating the most profit.
+> The category generating the most revenue is not necessarily the category generating the most profit.
 
-The Bikes category represents a significant margin risk and should be reviewed for:
+The **Bikes** category represents a significant margin risk and should be reviewed for:
 
-Pricing
-Discounting
-Product mix
-Product costs
-Reseller pricing
-5. Regional Analysis
+- Pricing
+- Discounting
+- Product mix
+- Product costs
+- Reseller pricing
 
-The Southwest was the leading region by sales.
+### 5. Regional Analysis
 
-Sales: $18.00M
-Sales Contribution: Approximately 23%
+The **Southwest** was the leading region by sales.
 
-The Canada market was the leading country by sales.
+- **Sales:** $18.00M
+- **Sales Contribution:** Approximately 23%
 
-Sales: $13.88M
+The **Canada** market was the leading country by sales.
+
+- **Sales:** $13.88M
 
 Regional performance also shows that sales leadership and profitability leadership are not always aligned.
 
 Some markets generate strong sales but weak or negative profit, creating opportunities for regional pricing and cost optimization.
 
-6. Reseller Analysis
-Top Reseller
+### 6. Reseller Analysis
 
-Brakes and Gears
+#### Top Reseller
 
-Sales: $882.27K
-Profit: $67.90K
+**Brakes and Gears**
+
+- **Sales:** $882.27K
+- **Profit:** $67.90K
 
 Brakes and Gears is the strongest individual reseller by both sales and profit.
 
-Business Type Performance
+#### Business Type Performance
 
-Top Business Type by Sales:
+**Top Business Type by Sales:**
 
-Warehouse — $37.43M
+**Warehouse — $37.43M**
 
-Top Business Type by Profit:
+**Top Business Type by Profit:**
 
-Value Added Reseller — $582.86K
+**Value Added Reseller — $582.86K**
 
 This demonstrates that the largest sales channel is not necessarily the most profitable channel.
 
-Reseller Concentration
-Top 10 Reseller Sales: $7.74M
-Total Sales: $77.55M
-Top 10 Contribution: 9.98%
+#### Reseller Concentration
 
-The top 10 resellers contribute only 9.98% of total sales, indicating relatively low reseller concentration.
+- **Top 10 Reseller Sales:** $7.74M
+- **Total Sales:** $77.55M
+- **Top 10 Contribution:** 9.98%
+
+The top 10 resellers contribute only **9.98% of total sales**, indicating relatively low reseller concentration.
 
 This reduces dependency risk and suggests that the business has a diversified reseller network.
 
-7. Salesperson Analysis
-Top Salesperson by Sales
+### 7. Salesperson Analysis
 
-Linda Mitchell
+#### Top Salesperson by Sales
 
-Sales: $10.16M
-Top Salesperson by Profit
+**Linda Mitchell**
 
-Jae Pak
+- **Sales:** $10.16M
 
-Profit: $264.95K
-Highest Profit Margin
+#### Top Salesperson by Profit
 
-Pamela Ansman-Wolfe
+**Jae Pak**
 
-Profit Margin: 4.23%
+- **Profit:** $264.95K
 
-The analysis shows that:
+#### Highest Profit Margin
 
-The highest-sales salesperson is not necessarily the highest-profit salesperson.
+**Pamela Ansman-Wolfe**
+
+- **Profit Margin:** 4.23%
+
+The analysis shows that the highest-sales salesperson is not necessarily the highest-profit salesperson.
 
 Salesperson performance should therefore be evaluated using:
 
-Sales
-Profit
-Profit Margin
-Quantity
-Target Achievement
-8. Target Performance Analysis
+- Sales
+- Profit
+- Profit Margin
+- Quantity
+- Target Achievement
+
+## 8. Target Performance Analysis
 
 Target analysis provides a different perspective from actual sales performance.
 
 The analysis compares:
 
-Actual Sales
-      +
-Assigned Target
-      ↓
-Target Variance
-      ↓
-Target Achievement %
-Key Finding
+**Actual Sales**  
++  
+**Assigned Target**  
+↓  
+**Target Variance**  
+↓  
+**Target Achievement %**
 
-Jillian Carson recorded the highest target achievement among the provided salesperson target data:
+### Key Finding
 
-Achievement: 71.34%
+**Jillian Carson** recorded the highest target achievement among the provided salesperson target data:
 
-Stephen Jiang recorded:
+- **Achievement:** 71.34%
 
-Achievement: 0.97%
-Largest Negative Variance: Approximately -$109.08M
+**Stephen Jiang** recorded:
+
+- **Achievement:** 0.97%
+- **Largest Negative Variance:** Approximately -$109.08M
 
 This demonstrates an important business principle:
 
-A salesperson with high sales may still perform below target if their assigned target is significantly higher.
+> A salesperson with high sales may still perform below target if their assigned target is significantly higher.
 
 Therefore, actual sales performance and target achievement should be analyzed together.
 
-🔎 Key Insights
-1. Strong Sales Does Not Always Mean Strong Profit
+---
 
-The business generates approximately $77.55M in sales, but profitability is relatively low.
+## 🔎 Key Insights
+
+### 1. Strong Sales Does Not Always Mean Strong Profit
+
+The business generates approximately **$77.55M in sales**, but profitability is relatively low.
 
 High revenue areas should be reviewed for margin pressure.
 
-2. Mountain-200 Is a Core Business Driver
+### 2. Mountain-200 Is a Core Business Driver
 
 The Mountain-200 product family generates strong sales and substantial absolute profit.
 
 These products should be protected through strong inventory management and reseller support.
 
-3. Bikes Is the Biggest Revenue Risk
+### 3. Bikes Is the Biggest Revenue Risk
 
-Bikes generates approximately $64.07M in sales but records negative profit.
+Bikes generates approximately **$64.07M in sales** but records negative profit.
 
 This is a major profitability issue requiring deeper pricing and cost analysis.
 
-4. The Reseller Network Is Well Diversified
+### 4. The Reseller Network Is Well Diversified
 
-The top 10 resellers contribute only 9.98% of total sales.
+The top 10 resellers contribute only **9.98% of total sales**.
 
 This indicates relatively low dependency on major reseller partners.
 
-5. Sales and Target Achievement Tell Different Stories
+### 5. Sales and Target Achievement Tell Different Stories
 
 The highest-sales salesperson is not necessarily the strongest performer relative to their assigned target.
 
 Performance evaluation should combine:
 
-Actual Sales + Profitability + Target Achievement
+**Actual Sales + Profitability + Target Achievement**
 
-💡 Business Recommendations
-1. Improve Profitability
+## 💡 Business Recommendations
+
+### 1. Improve Profitability
 
 Review high-sales, low-profit products and categories.
 
 Focus on:
 
-Pricing
-Discounts
-Product costs
-Product mix
-Reseller margins
-2. Protect Core Products
+- Pricing
+- Discounts
+- Product costs
+- Product mix
+- Reseller margins
+
+### 2. Protect Core Products
 
 Maintain inventory availability and reseller support for high-performing Mountain-200 products.
 
 Avoid stock-outs and continue strategic investment in proven revenue and profit drivers.
 
-3. Develop High-Margin Growth Opportunities
+### 3. Develop High-Margin Growth Opportunities
 
 Increase marketing and reseller focus on products with strong profit margins but relatively low sales.
 
 Examples include:
 
-Hitch Rack - 4-Bike
-Classic Vest
-Sport-100 Helmet
-Hydration Pack
-4. Improve Category Profitability
+- Hitch Rack - 4-Bike
+- Classic Vest
+- Sport-100 Helmet
+- Hydration Pack
+
+### 4. Improve Category Profitability
 
 Investigate the negative profitability of the Bikes category while maintaining its strong sales contribution.
 
 Use Components and other profitable categories as benchmarks for improving margin performance.
 
-5. Strengthen Strategic Resellers
+### 5. Strengthen Strategic Resellers
 
 Maintain strong partnerships with high-sales, high-profit resellers such as Brakes and Gears.
 
 At the same time, investigate high-sales, low-profit reseller relationships.
 
-6. Improve Salesperson Performance
+### 6. Improve Salesperson Performance
 
 Recognize high-performing salespeople and share successful sales practices across the team.
 
 Evaluate salespeople using both:
 
-Actual performance
-Target achievement
-7. Improve Target Setting
+- Actual performance
+- Target achievement
+
+### 7. Improve Target Setting
 
 Use historical sales performance and market potential to establish targets that are:
 
-Challenging
-Realistic
-Territory-aware
-Data-driven
-📊 Dashboard Preview
+- Challenging
+- Realistic
+- Territory-aware
+- Data-driven
+
+---
+
+## 📊 Dashboard Preview
 
 The Excel dashboard provides an interactive overview of business performance across multiple dimensions.
 
-Dashboard Includes
-Total Sales KPI
-Total Profit KPI
-Profit Margin KPI
-Sales Trend
-Product Performance
-Category Performance
-Regional Performance
-Reseller Performance
-Salesperson Performance
-Target Achievement
-Dashboard Preview
+### Dashboard Includes
+
+- Total Sales KPI
+- Total Profit KPI
+- Profit Margin KPI
+- Sales Trend
+- Product Performance
+- Category Performance
+- Regional Performance
+- Reseller Performance
+- Salesperson Performance
+- Target Achievement
+
+### Dashboard Preview
 
 Add your dashboard screenshot here:
 
 ![AdventureWorks Excel Dashboard](Images/Dashboard_Preview.png)
 
-
-🎯 Final Business Takeaway
+## 🎯 Final Business Takeaway
 
 The AdventureWorks analysis demonstrates that the business has strong revenue-generating capabilities but significant opportunities to improve profitability.
 
@@ -444,33 +465,43 @@ The most important strategic priority is to move from revenue-focused growth tow
 
 The business should:
 
-Protect high-performing core products, improve margins in high-sales/low-profit areas, expand high-margin growth opportunities, maintain a diversified reseller network, and evaluate sales performance against both actual results and assigned targets.
+- Protect high-performing core products
+- Improve margins in high-sales/low-profit areas
+- Expand high-margin growth opportunities
+- Maintain a diversified reseller network
+- Evaluate sales performance against both actual results and assigned targets
 
 This analysis provides a data-driven foundation for better decisions across sales, products, categories, regions, resellers, salespeople, and target planning.
 
-⭐ Project Highlights
-End-to-end Excel Business Intelligence project
-Multi-dimensional sales and profitability analysis
-PivotTable-driven business analysis
-Product and category profitability analysis
-Geographic performance analysis
-Reseller concentration analysis
-Salesperson profitability analysis
-Target achievement analysis
-Business recommendations based on data
-GitHub-ready documentation
-👤 Author
+---
 
-Sara Yeana
+## ⭐ Project Highlights
+
+- End-to-end Excel Business Intelligence project
+- Multi-dimensional sales and profitability analysis
+- PivotTable-driven business analysis
+- Product and category profitability analysis
+- Geographic performance analysis
+- Reseller concentration analysis
+- Salesperson profitability analysis
+- Target achievement analysis
+- Business recommendations based on data
+- GitHub-ready documentation
+
+---
+
+## 👤 Author
+
+**Sara Yeana**
 
 This project was created as part of a practical Data Analytics and Business Intelligence portfolio to demonstrate skills in:
 
-Microsoft Excel
-Data Analysis
-Business Intelligence
-Sales Analytics
-Profitability Analysis
-PivotTables
-Dashboard Development
-Business Problem Solving
-Data-Driven Recommendations
+- Microsoft Excel
+- Data Analysis
+- Business Intelligence
+- Sales Analytics
+- Profitability Analysis
+- PivotTables
+- Dashboard Development
+- Business Problem Solving
+- Data-Driven Recommendations
