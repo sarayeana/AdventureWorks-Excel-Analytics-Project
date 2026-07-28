@@ -95,6 +95,7 @@ Targets
 
 ## 📁 Project Structure
 
+```text
 AdventureWorks-Excel-Analytics/
 │
 ├── Dashboard/
@@ -117,9 +118,9 @@ AdventureWorks-Excel-Analytics/
 │
 ├── .gitignore
 ├── DAX.md
-├── Insight.md
 ├── LICENSE
 └── README.md
+```
 
 ## 📈 Key Analysis
 
