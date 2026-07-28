@@ -453,8 +453,6 @@ The Excel dashboard provides an interactive overview of business performance acr
 
 ### Dashboard Preview
 
-Add your dashboard screenshot here:
-
 ![AdventureWorks Excel Dashboard](Images/Dashboard_Preview.png)
 
 ## 🎯 Final Business Takeaway
